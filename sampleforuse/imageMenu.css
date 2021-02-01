@@ -1,0 +1,60 @@
+
+/*big menu*/
+
+#kwick {
+	position: relative;
+	/*border-bottom: 3px double #333;*/
+	margin-top: 10px;
+}
+
+#kwick .kwicks {
+	display: block;
+	height: 200px;
+	margin: 0px;
+}
+
+#kwick li {
+	float: left;
+}
+
+#kwick .kwick {
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+	height: 200px;
+	width: 131px;
+	/*padding: 10px;*/
+	background: #fff;
+	/*border-right: 5px solid #202020;*/
+	border-right: 2px solid #fff;
+}
+
+#kwick .kwick span {
+	display: none;
+}
+
+#kwick .opt1 {
+	background: #ccc url(../images/landscape.jpg) ;
+}
+
+#kwick .opt2 {
+	background: #ccc url(../images/people.jpg);
+}
+
+#kwick .opt3 {
+	background: #ccc url(../images/nature.jpg);
+}
+
+#kwick .opt4 {
+	background: #ccc url(../images/urban.jpg);
+}
+
+#kwick .opt5 {
+	background: #ccc url(../images/abstract.jpg);
+}
+
+#kwick .opt6 {
+	background: #ccc url(../images/places.jpg);
+	border-right: 0;
+}
+
